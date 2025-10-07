@@ -1,0 +1,467 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Development\\IAMLegend\\IAMLegend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|c:\\development\\iamlegend\\iamlegend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|c:\\development\\iamlegend\\iamlegend\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|solutionrelative:views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|c:\\development\\iamlegend\\iamlegend\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|solutionrelative:views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|c:\\development\\iamlegend\\iamlegend\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|c:\\development\\iamlegend\\iamlegend\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|solutionrelative:views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|c:\\development\\iamlegend\\iamlegend\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|solutionrelative:views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|c:\\development\\iamlegend\\iamlegend\\models\\permissionrowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|solutionrelative:models\\permissionrowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|c:\\development\\iamlegend\\iamlegend\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|solutionrelative:services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|c:\\development\\iamlegend\\iamlegend\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|solutionrelative:views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|c:\\development\\iamlegend\\iamlegend\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|c:\\development\\iamlegend\\iamlegend\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|c:\\development\\iamlegend\\iamlegend\\models\\userprofileeditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|solutionrelative:models\\userprofileeditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|c:\\development\\iamlegend\\iamlegend\\entities\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|solutionrelative:entities\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|c:\\development\\iamlegend\\iamlegend\\repositories\\efuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|solutionrelative:repositories\\efuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|c:\\development\\iamlegend\\iamlegend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|c:\\development\\iamlegend\\iamlegend\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|c:\\development\\iamlegend\\iamlegend\\entities\\usersystemaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|solutionrelative:entities\\usersystemaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|c:\\development\\iamlegend\\iamlegend\\entities\\permissionlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|solutionrelative:entities\\permissionlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|c:\\development\\iamlegend\\iamlegend\\entities\\usersystembranch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|solutionrelative:entities\\usersystembranch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|c:\\development\\iamlegend\\iamlegend\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|c:\\development\\iamlegend\\iamlegend\\entities\\localsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|solutionrelative:entities\\localsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|c:\\development\\iamlegend\\iamlegend\\entities\\domain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|solutionrelative:entities\\domain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|c:\\development\\iamlegend\\iamlegend\\dtos\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|solutionrelative:dtos\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B660B411-2F28-4869-B577-A45BF3136991}|..\\ConsoleTestHarness\\ConsoleTestHarness.csproj|c:\\development\\iamlegend\\consoletestharness\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|c:\\development\\iamlegend\\iamlegend\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|c:\\development\\iamlegend\\iamlegend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|c:\\development\\iamlegend\\iamlegend\\iamlegend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CE01F027-96D4-443B-9881-2C1DFEBF5884}|IAMLegend.csproj|solutionrelative:iamlegend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Development\\IAMLegend\\IAMLegend\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Development\\IAMLegend\\IAMLegend\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAiwH8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T18:25:38.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Development\\IAMLegend\\IAMLegend\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Development\\IAMLegend\\IAMLegend\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-02T15:53:28.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Development\\IAMLegend\\IAMLegend\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Development\\IAMLegend\\IAMLegend\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAACYCAAAAAAAAAAAAADwCAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T15:09:23.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Development\\IAMLegend\\IAMLegend\\Entities\\UserProfile.cs",
+              "RelativeDocumentMoniker": "Entities\\UserProfile.cs",
+              "ToolTip": "C:\\Development\\IAMLegend\\IAMLegend\\Entities\\UserProfile.cs",
+              "RelativeToolTip": "Entities\\UserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T14:06:54.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PermissionRowViewModel.cs",
+              "DocumentMoniker": "C:\\Development\\IAMLegend\\IAMLegend\\Models\\PermissionRowViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\PermissionRowViewModel.cs",
+              "ToolTip": "C:\\Development\\IAMLegend\\IAMLegend\\Models\\PermissionRowViewModel.cs",
+              "RelativeToolTip": "Models\\PermissionRowViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T17:41:33.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Development\\IAMLegend\\IAMLegend\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Users\\Create.cshtml",
+              "ToolTip": "C:\\Development\\IAMLegend\\IAMLegend\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "Views\\Users\\Create.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEoAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-01T15:11:51.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Development\\IAMLegend\\IAMLegend\\Views\\Users\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Users\\Delete.cshtml",
+              "ToolTip": "C:\\Development\\IAMLegend\\IAMLegend\\Views\\Users\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Users\\Delete.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-01T16:14:03.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Development\\IAMLegend\\IAMLegend\\Views\\Users\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Users\\Details.cshtml",
+              "ToolTip": "C:\\Development\\IAMLegend\\IAMLegend\\Views\\Users\\Details.cshtml",
+              "RelativeToolTip": "Views\\Users\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-01T16:14:14.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Development\\IAMLegend\\IAMLegend\\Views\\Users\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Users\\Edit.cshtml",
+              "ToolTip": "C:\\Development\\IAMLegend\\IAMLegend\\Views\\Users\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Users\\Edit.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-01T15:12:42.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Development\\IAMLegend\\IAMLegend\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "Services\\IUserService.cs",
+              "ToolTip": "C:\\Development\\IAMLegend\\IAMLegend\\Services\\IUserService.cs",
+              "RelativeToolTip": "Services\\IUserService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAtwBAAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T16:21:19.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserProfileEditViewModel.cs",
+              "DocumentMoniker": "C:\\Development\\IAMLegend\\IAMLegend\\Models\\UserProfileEditViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\UserProfileEditViewModel.cs",
+              "ToolTip": "C:\\Development\\IAMLegend\\IAMLegend\\Models\\UserProfileEditViewModel.cs",
+              "RelativeToolTip": "Models\\UserProfileEditViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T17:50:33.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Development\\IAMLegend\\IAMLegend\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Development\\IAMLegend\\IAMLegend\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-02T15:52:34.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Development\\IAMLegend\\IAMLegend\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Development\\IAMLegend\\IAMLegend\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-02T15:52:38.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Development\\IAMLegend\\IAMLegend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Development\\IAMLegend\\IAMLegend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAASwGsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T13:56:03.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PermissionLevel.cs",
+              "DocumentMoniker": "C:\\Development\\IAMLegend\\IAMLegend\\Entities\\PermissionLevel.cs",
+              "RelativeDocumentMoniker": "Entities\\PermissionLevel.cs",
+              "ToolTip": "C:\\Development\\IAMLegend\\IAMLegend\\Entities\\PermissionLevel.cs",
+              "RelativeToolTip": "Entities\\PermissionLevel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T16:06:28.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EfUserRepository.cs",
+              "DocumentMoniker": "C:\\Development\\IAMLegend\\IAMLegend\\Repositories\\EfUserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\EfUserRepository.cs",
+              "ToolTip": "C:\\Development\\IAMLegend\\IAMLegend\\Repositories\\EfUserRepository.cs",
+              "RelativeToolTip": "Repositories\\EfUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T15:08:48.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserSystemAccess.cs",
+              "DocumentMoniker": "C:\\Development\\IAMLegend\\IAMLegend\\Entities\\UserSystemAccess.cs",
+              "RelativeDocumentMoniker": "Entities\\UserSystemAccess.cs",
+              "ToolTip": "C:\\Development\\IAMLegend\\IAMLegend\\Entities\\UserSystemAccess.cs",
+              "RelativeToolTip": "Entities\\UserSystemAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T15:55:56.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Development\\IAMLegend\\IAMLegend\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Development\\IAMLegend\\IAMLegend\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T17:37:04.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserSystemBranch.cs",
+              "DocumentMoniker": "C:\\Development\\IAMLegend\\IAMLegend\\Entities\\UserSystemBranch.cs",
+              "RelativeDocumentMoniker": "Entities\\UserSystemBranch.cs",
+              "ToolTip": "C:\\Development\\IAMLegend\\IAMLegend\\Entities\\UserSystemBranch.cs",
+              "RelativeToolTip": "Entities\\UserSystemBranch.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T16:00:14.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Development\\IAMLegend\\IAMLegend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Development\\IAMLegend\\IAMLegend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-01T14:20:56.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LocalSystem.cs",
+              "DocumentMoniker": "C:\\Development\\IAMLegend\\IAMLegend\\Entities\\LocalSystem.cs",
+              "RelativeDocumentMoniker": "Entities\\LocalSystem.cs",
+              "ToolTip": "C:\\Development\\IAMLegend\\IAMLegend\\Entities\\LocalSystem.cs",
+              "RelativeToolTip": "Entities\\LocalSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T16:01:12.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Development\\IAMLegend\\IAMLegend\\Dtos\\UserDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\UserDto.cs",
+              "ToolTip": "C:\\Development\\IAMLegend\\IAMLegend\\Dtos\\UserDto.cs",
+              "RelativeToolTip": "Dtos\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T15:07:57.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Domain.cs",
+              "DocumentMoniker": "C:\\Development\\IAMLegend\\IAMLegend\\Entities\\Domain.cs",
+              "RelativeDocumentMoniker": "Entities\\Domain.cs",
+              "ToolTip": "C:\\Development\\IAMLegend\\IAMLegend\\Entities\\Domain.cs",
+              "RelativeToolTip": "Entities\\Domain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T16:05:14.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IAMLegend.csproj",
+              "DocumentMoniker": "C:\\Development\\IAMLegend\\IAMLegend\\IAMLegend.csproj",
+              "RelativeDocumentMoniker": "IAMLegend.csproj",
+              "ToolTip": "C:\\Development\\IAMLegend\\IAMLegend\\IAMLegend.csproj",
+              "RelativeToolTip": "IAMLegend.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-01T14:03:52.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Development\\IAMLegend\\IAMLegend\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Development\\IAMLegend\\IAMLegend\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-01T13:59:21.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreateUserRequest.cs",
+              "DocumentMoniker": "C:\\Development\\IAMLegend\\IAMLegend\\Dtos\\CreateUserRequest.cs",
+              "RelativeDocumentMoniker": "Dtos\\CreateUserRequest.cs",
+              "ToolTip": "C:\\Development\\IAMLegend\\IAMLegend\\Dtos\\CreateUserRequest.cs",
+              "RelativeToolTip": "Dtos\\CreateUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T15:10:36.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Development\\IAMLegend\\ConsoleTestHarness\\Program.cs",
+              "RelativeDocumentMoniker": "..\\ConsoleTestHarness\\Program.cs",
+              "ToolTip": "C:\\Development\\IAMLegend\\ConsoleTestHarness\\Program.cs",
+              "RelativeToolTip": "..\\ConsoleTestHarness\\Program.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAGoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T13:57:55.157Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

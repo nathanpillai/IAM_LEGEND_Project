@@ -1,0 +1,102 @@
+﻿@model IAMLegend.Models.UserProfileEditViewModel
+
+<h2>Edit User Permissions - @Model.UserProfile.username</h2>
+
+<form asp-action="EditUserProfile" method="post">
+    <input type="hidden" asp-for="UserProfile.userprofileid" />
+    <table class="table">        
+        <tbody>
+            <tr>
+                <td colspan="2">
+                    <div class="mb-3">
+                        <label asp-for="UserProfile.username" class="form-label"></label>
+                        <input asp-for="UserProfile.username" class="form-control" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="UserProfile.firstname" class="form-label"></label>
+                        <input asp-for="UserProfile.firstname" class="form-control" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="UserProfile.lastname" class="form-label"></label>
+                        <input asp-for="UserProfile.lastname" class="form-control" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="UserProfile.domain" class="form-label"></label>
+                        <input asp-for="UserProfile.domain" class="form-control" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="UserProfile.email" class="form-label"></label>
+                        <input asp-for="UserProfile.email" class="form-control" />
+                    </div>
+
+                    <div class="form-check mb-3">
+                        <input asp-for="UserProfile.isadmin" class="form-check-input" />
+                        <label asp-for="UserProfile.isadmin" class="form-check-label"></label>
+                    </div>
+                </td>
+                <td>
+
+                </td>
+                <td></td>
+        </tr>
+        </tbody>
+    </table>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>System</th>
+                @* Branch headers dynamically from the first row *@
+                @if (Model.PermissionsRows != null && Model.PermissionsRows.Any())
+                {
+                    @foreach (var branch in Model.PermissionsRows.First().Branches.Values)
+                    {
+                        <th>
+                            @branch.BranchName
+                        </th>
+                    }
+
+@*                     foreach (var branch in Model.PermissionsRows[0].Branches.Keys)
+                    {
+                        <th>@branch</th>
+                    }
+ *@                }
+                <th>Permission Level</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.PermissionsRows.Count; i++)
+            {
+                <tr>
+                    <input type="hidden" asp-for="PermissionsRows[@i].LocalSystemId" />
+                    <td>@Model.PermissionsRows[i].LocalSystemName</td>
+
+                    @* Checkboxes for branches *@
+                    @foreach (var branch in Model.PermissionsRows[i].Branches)
+                    {
+                        <td>
+                            <input type="checkbox"
+                                       name="PermissionsRows[@i].Branches[@branch.Key].IsChecked"
+                                   value="true"
+                                   @(branch.Value.IsChecked ? "checked" : "") />
+                        </td>
+                    }
+
+                    @* Dropdown for permission level with empty option *@
+                    <td>
+                        <select asp-for="PermissionsRows[@i].SelectedPermissionLevelId"
+                                asp-items="Model.PermissionsRows[@i].PermissionLevelList">
+                            <option value="">-- Select Permission --</option>
+                        </select>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
