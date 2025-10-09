@@ -1,0 +1,161 @@
+
+-- Branch table
+CREATE TABLE branch (
+    branchcode CHAR(2) PRIMARY KEY,
+    branchname VARCHAR(150)
+);
+
+-- Domain table
+CREATE TABLE domain (
+    domainid SERIAL PRIMARY KEY,
+    domainname VARCHAR(250)
+);
+
+-- LocalSystem table
+CREATE TABLE localsystem (
+    localsystemid SERIAL PRIMARY KEY,
+    localsystemname VARCHAR(150)
+);
+
+-- PermissionLevel table
+CREATE TABLE permissionlevel (
+    permissionlevelid SERIAL PRIMARY KEY,
+    name VARCHAR(150),
+    localsystemid INT NOT NULL
+    -- FK constraint can be added later to localsystem(localsystemid)
+);
+
+-- UserProfile table
+CREATE TABLE userprofile (
+    userprofileid SERIAL PRIMARY KEY,
+    status INT NOT NULL,
+    firstname VARCHAR(150) NOT NULL,
+    lastname VARCHAR(150) NOT NULL,
+    domain VARCHAR(150) NOT NULL,
+    username VARCHAR(301) NOT NULL,
+    email VARCHAR(250) NOT NULL,
+    isadmin BOOLEAN NOT NULL,
+    operatorid INT,
+    createddatetime TIMESTAMP NOT NULL,
+    createdby VARCHAR(300) NOT NULL,
+    modifieddatetime TIMESTAMP,
+    modifiedby VARCHAR(300)
+);
+
+-- UserSystemAccess table
+CREATE TABLE usersystemaccess (
+    usersystemaccessid SERIAL PRIMARY KEY,
+    status INT NOT NULL,
+    userprofileid INT NOT NULL,
+    localsystemid INT NOT NULL,
+    permissionlevelid INT NOT NULL,
+    createddatetime TIMESTAMP NOT NULL,
+    createdby VARCHAR(300) NOT NULL,
+    modifiedby VARCHAR(300),
+    modifieddatetime TIMESTAMP
+    -- FKs to userprofile/localsystem/permissionlevel can be added later
+);
+
+-- UserSystemBranch table
+CREATE TABLE usersystembranch (
+    usersystembranchid SERIAL PRIMARY KEY,
+    status INT NOT NULL,
+    userprofileid INT NOT NULL,
+    localsystemid INT NOT NULL,
+    branchcode CHAR(2) NOT NULL,
+    createddatetime TIMESTAMP NOT NULL,
+    createdby VARCHAR(300) NOT NULL,
+    modifiedby VARCHAR(300),
+    modifieddatetime TIMESTAMP
+    -- FKs to userprofile/localsystem/branch can be added later
+);
+
+select * from usersystemaccess
+select * from usersystembranch
+insert into usersystemaccess values(1,0,1,1,1,NOW(),'NSakthivel',null,null)
+insert into usersystembranch values(1,0,1,1,N'LN',NOW(),'NSakthivel',null,null)
+
+sel
+select * from usersystembranch
+select * from domain;
+select * from branch;
+select * from LocalSystem;
+--delete from LocalSystem;
+
+update branch set branchcode
+
+delete from branch;
+delete from usersystemaccess;
+delete from usersystembranch;
+
+INSERT into domain(DomainId,DomainName) VALUES(1,'abc.co.uk');
+
+INSERT into Branch (BranchCode, BranchName) VALUES (N'NY', N'NewYork');
+INSERT into Branch (BranchCode, BranchName) VALUES (N'PA', N'Paris');
+INSERT into branch (BranchCode, BranchName) VALUES (N'LN', N'London');
+INSERT into Branch (BranchCode, BranchName) VALUES (N'DU', N'Dubai');
+INSERT into Branch (BranchCode, BranchName) VALUES (N'SR', N'Singapore');
+INSERT into Branch (BranchCode, BranchName) VALUES (N'TY', N'Tokyo');
+
+INSERT into LocalSystem (LocalSystemId, LocalSystemName) VALUES (1, N'HR');
+INSERT into LocalSystem (LocalSystemId, LocalSystemName) VALUES (2, N'Payroll');
+INSERT into LocalSystem (LocalSystemId, LocalSystemName) VALUES (3, N'Accounts');
+INSERT into LocalSystem (LocalSystemId, LocalSystemName) VALUES (4, N'Finance');
+INSERT into LocalSystem (LocalSystemId, LocalSystemName) VALUES (5, N'HelpDesk');
+INSERT into LocalSystem (LocalSystemId, LocalSystemName) VALUES (6, N'IT-Infrastrcture');
+INSERT into LocalSystem (LocalSystemId, LocalSystemName) VALUES (7, N'IT-BAU');
+INSERT into LocalSystem (LocalSystemId, LocalSystemName) VALUES (8, N'CRM');
+INSERT into LocalSystem (LocalSystemId, LocalSystemName) VALUES (9, N'Sales');
+INSERT into LocalSystem (LocalSystemId, LocalSystemName) VALUES (10, N'IT-Projects');
+INSERT into LocalSystem (LocalSystemId, LocalSystemName) VALUES (11, N'Treasury');
+
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (1, N'HR-Users', 1)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (2, N'HR-Manager', 1)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (3, N'Payroll-Users', 2)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (4, N'Payroll-Manager', 2)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (5, N'Accounts-Executives', 3)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (6, N'Accounts-Manager', 3)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (7, N'Finance', 4)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (8, N'Finance-Manager', 4)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (9, N'HelpDesk-Users', 5)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (10, N'HelpDesk-Manager', 5)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (11, N'IT-Infrast', 3)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (12, N'Middle Office Staff', 3)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (13, N'Middle Office Senior Manager', 3)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (14, N'Middle Office Senior Manager', 3)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (15, N'Middle Office Administrator', 3)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (16, N'System Programmer', 3)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (17, N'Front Office MM', 4)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (18, N'Front Office FX', 4)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (19, N'Front Office Other Dealers', 4)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (20, N'Back Office Dept MM Processing', 4)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (21, N'Back Office Dept FX Processing', 4)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (22, N'Back Office Manager', 4)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (23, N'Emergency', 5)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (24, N'Audit Department', 5)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (25, N'HR Department', 5)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (26, N'System Administrator', 5)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (27, N'Back Office New Product', 6)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (28, N'Back Office MM', 6)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (29, N'Back Office Manager', 6)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (30, N'System Help Desk', 7)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (31, N'System Client Server Team', 7)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (32, N'System Administrator', 7)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (33, N'System Security Team Staff', 7)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (34, N'Front Office 1', 8)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (35, N'Front Office 2', 8)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (36, N'Back Office Manager', 8)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (37, N'Middle Office Manager', 8)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (38, N'Middle Office Staff', 8)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (39, N'Credit Control Department', 9)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (40, N'Static Data Department', 9)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (41, N'Financial Control Dept.', 9)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (42, N'Legal Dept.', 9)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (43, N'Back Office 1', 9)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (44, N'System Admin.', 10)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (45, N'Emergency', 10)
+INSERT [dbo].[PermissionLevel] ([PermissionLevelId], [Name], [LocalSystemId]) VALUES (46, N'Help Desk', 10)
+
+INSERT [dbo].[USERPROFILE] (Domain, FirstName, LastName, username, Email, IsAdmin, [Status], CreatedBy, CreatedDateTime) values ('DESKTOP-MC292KU','hp','hp','hp', 'hp@DESKTOP-MC292KU',1,0,'hp',getdate())
+
+INSERT [dbo].[USERPROFILE] (Domain, FirstName, LastName, username, Email, IsAdmin, [Status], CreatedBy, CreatedDateTime) values ('abc.co.uk','test','test','test.test', 'test@abc.co.uk',1,0,'test',getdate())
